@@ -25,17 +25,17 @@ class NewPackages extends Component {
                 <div className="ant-row">
                     <div className="ant-col-xs-16 ant-col-sm-16 ant-col-md-16 ant-col-lg-16 ant-col-xl-16">
                         <div className="ant-card gx-card ant-card-bordered ant-card-wider-padding ant-card-padding-transition">
-                            <div className="ant-card-head">
+                            {/* <div className="ant-card-head">
                                 <div className="ant-card-head-wrapper">
                                     <div class="ant-card-head-title">Add Categories</div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="ant-card-body">
                                 <div className="ant-card-body">
                                     <form className="ant-form ant-form-horizontal">
                                         <div className="ant-row ant-form-item">
                                             <div className="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-24">
-                                                <label>COMPANY</label>
+                                                <label>PACKAGE NAME</label>
                                                 <div className="ant-form-item-control has-success">
                                                     <span className="ant-form-item-children">
                                                         <input id="categoryName" type="text" className="ant-input textBorder" />
@@ -46,17 +46,6 @@ class NewPackages extends Component {
 
                                         <div id="summernote">
                                             <h1>Lorem Ipsum is simply</h1>
-                                            <p>dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the
-                      industry's</strong> standard dummy text ever since the 1500s, when an unknown printer took a
-                                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five
-                                                                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
-                                                                        was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with</p>
-                                            <ul>
-                                                <li>Remaining essentially unchanged</li>
-                                                <li>Make a type specimen book</li>
-                                                <li>Unknown printer</li>
-                                            </ul>
                                         </div>
                                     </form>
                                 </div>
@@ -65,38 +54,34 @@ class NewPackages extends Component {
                     </div>
 
                     <div className="ant-col-xs-8 ant-col-sm-8 ant-col-md-8 ant-col-lg-8 ant-col-xl-8">
-                        <div className="">
-                            <div className="ant-card-head">
-                                <div className="ant-card-head-wrapper">
-                                    <div class="ant-card-head-title">Finance Providers</div>
+                        <div className="ant-row">
+                            <div className="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-24">
+                                <div className="sideCard">
+                                    <span>FEATURED IMAGE</span>
+                                    <hr />
+                                    <button
+                                        onClick={() => this.props.history.push('/new-packages')}
+                                        type="button"
+                                        class="ant-btn ant-btn-primary ant-btn-background-ghost ant-col-xs-24"
+                                    >
+                                        <span>Add Featured Image</span>
+                                    </button>
                                 </div>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-row">
-                                    <div className="ant-form-item-control-wrapper ant-col-xs-12 ant-col-sm-12">
-                                        <input type="text" className="form-control" placeholder="Search" />
-                                    </div>
-                                </div>
-                                <div className="ant-row" style={{ marginTop: 20 }}>
-                                    <div className="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-24">
-                                        <div className="catList">
-                                            <div>
-                                                <span>Collective Investment</span>
-                                            </div>
-                                            <div style={{ padding: 20 }}>
-                                                <a>Edit</a>
-                                            </div>
-                                        </div>
 
-                                        <div className="catList">
-                                            <div>
-                                                <span>Commercial Credit</span>
-                                            </div>
-                                            <div style={{ padding: 20 }}>
-                                                <a>Edit</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div className="sideCard">
+                                    <span>SERVICE CATEGORY</span>
+                                    <hr />
+                                    <select className="form-control">
+                                        <option>Insurance</option>
+                                    </select>
+                                </div>
+
+                                <div className="sideCard">
+                                    <span>SERVICE PROVIDER</span>
+                                    <hr />
+                                    <select className="form-control">
+                                        <option>FBN Insurance</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>

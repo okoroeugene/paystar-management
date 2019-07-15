@@ -36,7 +36,10 @@ class NavBar extends Component {
                             <h1 style={{ color: '#000000' }}>{this.props.title}</h1>
                         </div>
                         <div className="hello0">
-                            <h4 style={{ color: '#000000', marginTop: 4 }}>Hello, Odogwu</h4>
+                            <h4 style={{ color: '#000000', marginTop: 7, fontSize: '1.0em' }}>Hello, Odogwu</h4>
+                            <div className="power0">
+                                <i style={{ color: '#ACB5BD' }} className="fa fa-power-off"></i>
+                            </div>
                         </div>
                     </div>
                 </div>

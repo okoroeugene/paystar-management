@@ -71,6 +71,16 @@ h1, h2,h3,h4,h5,h6{
     margin-bottom: 10px;
 }
 
+.sideCard{
+    width: 100%;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
 a{
     color: #05668D !important;
 }
@@ -92,4 +102,21 @@ input[type="file"] {
     cursor: pointer;
     background-color: #05668D;
     padding: 15px 30px 15px 30px;
+}
+
+.form-control {
+    height: calc(3.42rem + 10px) !important;
+}
+
+.power0{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-color: #DDE2E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -14px;
+    bottom: -1px;
 }
