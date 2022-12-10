@@ -37,7 +37,7 @@
     "datamaps": "^0.5.9",
     "datatables.net-bs4": "^1.10.19",
     "dropzone": "^5.4.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.15.6",
     "flag-icon-css": "^3.0.0",
     "gmaps": "^0.4.24",
